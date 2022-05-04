@@ -1,19 +1,9 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-import tw from 'twrnc';
+import NewWallet from "./components/createWallet/NewWallet";
+
 export default function App() {
   return (
-    <View style={tw`p-5 android:pt-2 bg-red-400 dark:bg-black`}>
-    <Text style={tw`text-md text-black dark:text-white mt-10`}>Hello World</Text>
-  </View>
+    <>
+      <NewWallet />
+    </>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

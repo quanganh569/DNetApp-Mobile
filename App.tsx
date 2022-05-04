@@ -3,8 +3,8 @@ import { StyleSheet, Text, View } from 'react-native';
 import tw from 'twrnc';
 export default function App() {
   return (
-    <View style={tw`p-4 android:pt-2 bg-red-400 dark:bg-black`}>
-    <Text style={tw`text-md text-black dark:text-white`}>Hello World</Text>
+    <View style={tw`p-5 android:pt-2 bg-red-400 dark:bg-black`}>
+    <Text style={tw`text-md text-black dark:text-white mt-10`}>Hello World</Text>
   </View>
   );
 }
